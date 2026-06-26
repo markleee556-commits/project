@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern web</title>
+
+<div>
+              <a href="index.html">HOME</a>|
+              <a href="jhon sina.html"> ABOUT ME </a>|
+              <a href="lol.html">PICTURE</a>|
+              <a href="dfg.html">PROJECT</a>|
+          </div> 
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    .hero {
+      display: flex;
+      height: 100vh;
+    }
+    .hero-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+      background: #fff;
+    }
+    .hero-text h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero-text p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .hero-text a {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #0078d7;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .hero-text a:hover {
+      background: #005a9e;
+    }
+    .hero-image {
+      flex: 1;
+      background: url('https://picsum.photos/800/1000') no-repeat center center;
+      background-size: cover;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0078d7;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-text">
+      <h1>Welcome to My Website</h1>
+      <p> WEB DEVELOPER. BY Mark lee L. Elesterio</p>
+      <a href="#contact">Get Started</a>
+    </div>
+    <div class="hero-image"></div>
+  </div>
+  <footer>
+    <p>&copy; 2026 Modern Business Inc.</p>
+  </footer>
+</body>
+</html>
